@@ -1,0 +1,41 @@
+#portfolio {
+    background: #ffffff;
+    padding-top: 90px;
+    padding-bottom: 60px;
+ }
+
+h1 {
+    font: 15px/24px 'opensans-semibold', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 48px;
+    color: #95A3A3;
+    
+ }
+ hr{
+     color: gray;
+     opacity: 0.3;
+     width: 80%;
+    
+ }
+
+ .GTPic{
+     height: 400px;
+ }
+
+#yelpPic{
+    width:300px;
+}
+ .flexslider{
+     width: 300px;
+     float: left;
+     align-content: center; 
+ }
+ .description{
+    float: left;
+    margin-left: 20px;
+ }
+ .li{
+     display: none;
+ }

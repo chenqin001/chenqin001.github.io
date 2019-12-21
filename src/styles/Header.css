@@ -1,9 +1,13 @@
+@import url("fonts.css");
+@import url("fontello/css/fontello.css");
+@import url("font-awesome/css/font-awesome.min.css");
+
 header {
     position: relative;
     height: 800px;
     min-height: 500px;
     width: 100%;
-    background: #161415 url(../img/pic.jpg) no-repeat top center;
+    background:  url(../img/pic.jpg) no-repeat top center;
     background-size: cover !important;
      -webkit-background-size: cover !important;
     text-align: center;
@@ -64,8 +68,6 @@ header {
     margin: 0 15px;
     padding: 0;
  }
- header .social li a { color: #fff; }
- header .social li a:hover { color: #11ABB0; }
  
  /* scrolldown link */
  header .scrolldown a {
@@ -94,8 +96,8 @@ header {
  #nav-wrap ul, #nav-wrap li, #nav-wrap a {
       margin: 0;
       padding: 0;
-      border: none;
-      outline: none;
+      /* border: none;
+      outline: none; */
  }
  
  /* nav-wrap */
@@ -137,7 +139,7 @@ header {
     display: inline-block;
     padding: 8px 13px;
     line-height: 32px;
-     text-decoration: none;
+    text-decoration: none;
     text-align: left;
     color: #fff;
  
@@ -146,6 +148,9 @@ header {
      -o-transition: color .2s ease-in-out;
      -ms-transition: color .2s ease-in-out;
      transition: color .2s ease-in-out;
+ }
+ #down{
+    text-decoration: none;
  }
  
  ul#nav li a:active { background-color: transparent !important; }

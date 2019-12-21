@@ -21,7 +21,7 @@ export default class Header extends Component {
                <h1 className="responsive-headline">Hi, I am Qin</h1>
                <h3 style={{color:'#fff', fontFamily:'sans-serif '}}>Welcome to my world </h3>
                <h6 style={{color:'#fff', fontFamily:'sans-serif '}}>Scroll down to explore </h6>
-               <h2>⏬</h2>
+               <a className="smoothscroll" href="#about" id="down"><i class="fa fa-angle-double-down"></i></a>
             </div>
          </div>
 

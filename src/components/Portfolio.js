@@ -15,9 +15,10 @@ export default class Porfolio extends Component {
         <hr/>
         <div className="Yelp">
           <h2>Yelp</h2>
-          <h3>blablabla</h3>
+          <a href="http://3.17.27.249:8080/YelpRec/#" target="_blank" className="fa">🔗click here to see more</a>
           <div className="container">
-            <img src={yelp} id="yelpPic"/>
+            <iframe src="http://3.17.27.249:8080/YelpRec/#" id="iframe" ></iframe>
+            {/* <img src={yelp} id="yelpPic"/> */}
             <div className="description">
               <p>Designed and coded an interactive web page using HTML, CSS, and JavaScript</p>
               <p>Developed a web service using Java servlet to fetch restaurant data from Yelp API using users' locations</p>

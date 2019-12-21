@@ -1,5 +1,5 @@
 #portfolio {
-    background: #ffffff;
+    background:  #ebeeee;
     padding-top: 90px;
     padding-bottom: 60px;
  }
@@ -25,17 +25,114 @@ h1 {
  }
 
 #yelpPic{
-    width:300px;
+    width:90%;
 }
+iframe {
+    width: 60%;
+    height: 450px;
+	float: center;
+	margin: 0 auto;
+	padding: 0;
+	margin-top: 40px;
+	display: block;
+	border: none;
+	border-radius: 20px;
+	border: solid 8px #cccccc;
+}
+
  .flexslider{
      width: 300px;
-     float: left;
      align-content: center; 
+     position: relative;
+     zoom: 1;
+     margin: 0;
+     padding: 0;
+     display: inline-block;
+     text-align: center;
+     margin-bottom: 25px;
  }
  .description{
     float: left;
     margin-left: 20px;
  }
- .li{
-     display: none;
- }
+
+
+
+
+ /* Flex Slider
+/* ------------------------------------------------------------------ */
+
+/* Reset */
+.flexslider a:active,
+.flexslider a:focus  { outline: none; }
+.slides,
+.flex-control-nav,
+.flex-direction-nav { margin: 0; padding: 0; list-style: none; }
+.slides li { margin: 0; padding: 0;}
+
+.flexslider .slides { zoom: 1; }
+.flexslider .slides > li { position: relative; }
+
+/* Hide the slides before the JS is loaded. Avoids image jumping */
+.flexslider .slides > li { display: none; -webkit-backface-visibility: hidden; }
+/* Suggested container for slide animation setups. Can replace this with your own */
+.flex-container { zoom: 1; position: relative; }
+
+/* Clearfix for .slides */
+.slides:before,
+.slides:after {
+   content: " ";
+   display: table;
+}
+.slides:after {
+   clear: both;
+}
+
+/* No JavaScript Fallback */
+/* If you are not using another script, such as Modernizr, make sure you
+ * include js that eliminates this class on page load */
+.no-js .slides > li:first-child { display: block; }
+
+/* Slider Styles */
+.slides { zoom: 1; }
+.slides > li {
+   /*margin-right: 5px; */
+   overflow: hidden;
+}
+
+/* Control Nav */
+.flex-control-nav {
+    width: 100%;
+    position: absolute;
+    bottom: -20px;
+    text-align: center;
+}
+.flex-control-nav li {
+    margin: 0 6px;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+}
+.flex-control-paging li a {
+    width: 12px;
+    height: 12px;
+    display: block;
+    background: #ddd;
+    background: rgba(255, 255, 255, .5);
+    cursor: pointer;
+    text-indent: -9999px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -o-border-radius: 20px;
+    border-radius: 20px;
+    box-shadow: inset 0 0 3px rgba(255, 255, 255, .5);
+}
+.flex-control-paging li a:hover {
+    background: #CCC;
+    background: rgba(255, 255, 255, .7);
+}
+.flex-control-paging li a.flex-active {
+    background: #fff;
+    background: rgba(255, 255, 255, 1);
+    cursor: default;
+}

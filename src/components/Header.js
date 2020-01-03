@@ -19,9 +19,13 @@ export default class Header extends Component {
          <div className="row banner">
             <div className="banner-text">
                <h1 className="responsive-headline">Hi, I am Qin</h1>
-               <h3 style={{color:'#fff', fontFamily:'sans-serif '}}>Welcome to my world </h3>
-               <h6 style={{color:'#fff', fontFamily:'sans-serif '}}>Scroll down to explore </h6>
-               <a className="smoothscroll" href="#about" id="down"><i class="fa fa-angle-double-down"></i></a>
+               {/* <h3 style={{color:'#fff', fontFamily:'sans-serif '}}>Welcome to my world </h3> */}
+               <h6 style={{color:'#fff', fontFamily:'sans-serif '}}>Welcome to my world. Scroll down to explore </h6>
+               <a className="smoothscroll" href="#about" id="down"><i className="fa fa-angle-double-down"></i></a>
+            </div>
+            <div className='HeaderAbout'>
+               <p>a student</p>
+               <p>a SDE</p>
             </div>
          </div>
 

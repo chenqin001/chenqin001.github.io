@@ -4,23 +4,26 @@ export default class About extends Component {
   render() {
     return (
       <section id="about">
+         <div className="box">
 
-
-
-         <div className="row">
-
-            <div className="about">
-               <h2>About Me</h2>
+            <div className="box1">
+               <h2 className="aboutSection">About Me</h2>
                <p>blablabla</p>
+              
+              
+               
             </div>
 
-             <div className="skills">
+             <div className="box2">
 
                   <h2>Skills</h2>
                   <p>blablabla</p>
+                 
+                 
+
             </div>
 
-            <div className="contacts">
+            <div className="box3">
                   <h2>Contacts</h2>
                   <a href="https://www.linkedin.com/in/qin-chen-911011165/" target="_blank" className="fa"><i className="fa fa-linkedin"></i></a>
                   <a href="https://github.com/chenqin001" target="_blank" className="fa"><i className="fa fa-github"></i></a>

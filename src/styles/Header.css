@@ -11,8 +11,29 @@ header {
     background-size: cover !important;
      -webkit-background-size: cover !important;
     text-align: center;
-    overflow: hidden;
+    overflow: hidden; 
  }
+
+ .HeaderAbout{
+    
+ }
+
+ .banner-text{
+    float: left;
+ }
+
+ /* .banner-text{
+   -webkit-column-count: 2;
+   -moz-column-count: 2;
+   column-count: 2;
+   -webkit-column-gap: 37px;
+   -moz-column-gap: 37px;
+   column-gap: 37px;
+   -webkit-column-rule: 1px solid rgba(28,110,164,0.19);
+   -moz-column-rule: 1px solid rgba(28,110,164,0.19);
+   column-rule: 1px solid rgba(28,110,164,0.19);
+
+ } */
  
  /* vertically center banner section */
  header:before {
@@ -56,48 +77,12 @@ header {
     border-color: rgba(150, 150, 150, .1);
  }
  
- /* header social links */
- header .social {
-    margin: 24px 0;
-    padding: 0;
-    font-size: 30px;
-    text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
- }
- header .social li {
-    display: inline-block;
-    margin: 0 15px;
-    padding: 0;
- }
- 
- /* scrolldown link */
- header .scrolldown a {
-    position: absolute;
-    bottom: 30px;
-    left: 50%;
-    margin-left: -29px;
-    color: #fff;
-    display: block;
-    height: 42px;
-    width: 42px;
-    font-size: 42px;
-    line-height: 42px;
-    color: #fff;
-    border-radius: 100%;
- 
-    -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    -o-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
- }
- header .scrolldown a:hover { color: #11ABB0; }
  
  /* primary navigation
  --------------------------------------------------------------------- */
  #nav-wrap ul, #nav-wrap li, #nav-wrap a {
       margin: 0;
       padding: 0;
-      /* border: none;
-      outline: none; */
  }
  
  /* nav-wrap */
@@ -133,9 +118,6 @@ header {
  
  /* Links */
  ul#nav li a {
- 
- /* 8px padding top + 8px padding bottom + 32px line-height = 48px */
- 
     display: inline-block;
     padding: 8px 13px;
     line-height: 32px;
@@ -149,6 +131,7 @@ header {
      -ms-transition: color .2s ease-in-out;
      transition: color .2s ease-in-out;
  }
+
  #down{
     text-decoration: none;
  }

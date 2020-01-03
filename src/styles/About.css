@@ -3,24 +3,17 @@
 @import url("font-awesome/css/font-awesome.min.css");
 
 #about {
-    background: linear-gradient(to top right, #e6f7ff,#e6e6ff);
+    background: linear-gradient(to top right,#e6e6ff,#e6f7ff);
     padding-top: 96px;
     padding-bottom: 66px;
     overflow: hidden;
  }
  
-#about a, #about a:visited  { 
-    color: #fff; 
-}
-
- #about a:hover, #about a:focus { 
-    color: #11ABB0; 
-}
- 
  #about h2 {
     font: 22px/30px 'opensans-bold', sans-serif;
     color: #fff;
     margin-bottom: 12px;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
  }
 
  .fa{
@@ -29,6 +22,28 @@
     color: white;
     text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
  }
+
+ .box{
+	padding: 0;
+	margin: 0;
+}
+
+.box1, .box2, .box3{
+
+   padding-left: 5%;
+   padding-right: 5%;
+   width: 33%;
+   height: auto;
+   border-color: violet;
+   
+   float: left;
+   
+   
+   -moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
 
 
  

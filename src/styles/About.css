@@ -4,15 +4,15 @@
 
 #about {
     background: linear-gradient(to top right,#e6e6ff,#e6f7ff);
-    padding-top: 96px;
-    padding-bottom: 66px;
+    padding-top: 0px;
+    padding-bottom: 70px;
     overflow: hidden;
  }
  
  #about h2 {
     font: 22px/30px 'opensans-bold', sans-serif;
     color: #fff;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
     text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
  }
 
@@ -28,21 +28,34 @@
 	margin: 0;
 }
 
-.box1, .box2, .box3{
 
-   padding-left: 5%;
-   padding-right: 5%;
-   width: 33%;
-   height: auto;
-   border-color: violet;
-   
-   float: left;
-   
-   
-   -moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
+.row:after {
+   content: "";
+   display: table;
+   clear: both;
+ }
+
+.box{
+
+  box-sizing: border-box;
+  float: left;
+  width: 33.33%;
+  padding: 50px;
+  height: 300px;
+  
 }
+
+.center{
+
+   text-align: center;
+
+}
+
+@media (max-width: 600px) {
+   .box {
+     width: 100%;
+   }
+ }
 
 
 

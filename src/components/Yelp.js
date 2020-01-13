@@ -5,7 +5,7 @@ export default class Porfolio extends Component {
         return (
             <div className="Yelp">
             <h2 className="ProjectName">Restaurant recommendation system based on Yelp API</h2>
-            <a href="http://3.17.27.249:8080/YelpRec/#" target="_blank">>>follow this link to see this project</a>
+            <a href="http://3.17.27.249:8080/YelpRec/#" target="_blank"><h5 className="link">>>follow this link to see this project</h5></a>
             <div className="container">
               <iframe src="http://3.17.27.249:8080/YelpRec/#" id="iframe" ></iframe>
              

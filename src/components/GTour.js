@@ -8,7 +8,7 @@ export default class GTour extends Component {
         return (
         <div className="GTrader">
           <h2 className="ProjectName">GT sustainability self tour</h2>
-          <a href="http://3.17.27.249:8080/YelpRec/#" target="_blank"> >>>follow this link to see this project</a>
+          <a href="http://3.17.27.249:8080/YelpRec/#" target="_blank"><h5 className="link">>>follow this link to see this project</h5></a>
           <div className="container">
             <div className="GTourDescription">
                 <ul>

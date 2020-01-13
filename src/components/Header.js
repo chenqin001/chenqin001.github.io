@@ -10,7 +10,7 @@ export default class Header extends Component {
             <a className="mobile-btn" href="#nav-wrap" title="Show navigation"></a>
             <a className="mobile-btn" href="#" title="Hide navigation"></a>
             <ul id="nav" className="nav">
-               <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
+               <li className="current"><a className="smoothscroll" href="#home">HOME</a></li>
                <li><a className="smoothscroll" href="#about">About</a></li>
                <li><a className="smoothscroll" href="#portfolio">Works</a></li>
             </ul>
@@ -18,14 +18,18 @@ export default class Header extends Component {
 
          <div className="row banner">
             <div className="banner-text">
-               <h1 className="responsive-headline">Hi, I am Qin</h1>
-               {/* <h3 style={{color:'#fff', fontFamily:'sans-serif '}}>Welcome to my world </h3> */}
-               <h6 style={{color:'#fff', fontFamily:'sans-serif '}}>Welcome to my world. Scroll down to explore </h6>
-               <a className="smoothscroll" href="#about" id="down"><i className="fa fa-angle-double-down"></i></a>
-            </div>
-            <div className='HeaderAbout'>
+               <h1 className="responsive-headline">Qin C.</h1>
                <p>a student</p>
-               <p>a SDE</p>
+               <p>a software engineer</p>
+               <p>a creater, not only a developr</p>
+
+            </div>
+
+            
+            <div>
+               <h4 style={{color:'#fff', fontFamily:'Georgia-serif '}}>Welcome to my space </h4>
+               <h5 style={{color:'#fff', fontFamily:'Georgia-serif '}}>Scroll down to explore </h5>
+               <a className="smoothscroll" href="#about" id="down"><i className="fa fa-angle-double-down"></i></a>
             </div>
          </div>
 

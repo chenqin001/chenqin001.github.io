@@ -18,10 +18,8 @@ export default class Header extends Component {
 
          <div className="row banner">
             <div className="banner-text">
-               <h1 className="responsive-headline">Qin C.</h1>
-               <p>a student</p>
-               <p>a software engineer</p>
-               <p>a creater, not only a developr</p>
+               <h1 className="responsive-headline">HI, I'M QIN</h1>
+               <p> -- a creater, not only a developr</p>
 
             </div>
 
@@ -29,6 +27,7 @@ export default class Header extends Component {
             <div>
                <h4 style={{color:'#fff', fontFamily:'Georgia-serif '}}>Welcome to my space </h4>
                <h5 style={{color:'#fff', fontFamily:'Georgia-serif '}}>Scroll down to explore </h5>
+               <i style={{color:'#fff', display:'block',paddingBottom:'30px'}} class="fas fa-globe-asia fa-3x"></i>
                <a className="smoothscroll" href="#about" id="down"><i className="fa fa-angle-double-down"></i></a>
             </div>
          </div>

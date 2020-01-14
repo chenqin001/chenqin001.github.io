@@ -1,13 +1,17 @@
 import React, { Component } from 'react';
 
+import pic from "../img/yelp.png";
+
 export default class Porfolio extends Component {
     render(){
         return (
             <div className="Yelp">
             <h2 className="ProjectName">Restaurant recommendation system based on Yelp API</h2>
-            <a href="http://3.17.27.249:8080/YelpRec/#" target="_blank"><h5 className="link">>>follow this link to see this project</h5></a>
+            <a href="http://3.17.27.249:8080/YelpRec/#" target="_blank"><p className="link">>>follow this link to see this project</p></a>
             <div className="container">
               <iframe src="http://3.17.27.249:8080/YelpRec/#" id="iframe" ></iframe>
+
+              {/* <img src={pic} className="GTour"/> */}
              
               <div className="YelpDescription">
                 <p>Designed and coded an interactive web page using HTML, CSS, and JavaScript</p>

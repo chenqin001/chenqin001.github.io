@@ -5,13 +5,12 @@
     
  }
 
-h1 {
-    font: 15px/24px 'opensans-semibold', sans-serif;
+h2,h1,h5 {
     font-family: Georgia, serif;
     text-transform: uppercase;
     letter-spacing: 1px;
     text-align: center;
-    margin-bottom: 48px;
+    margin-bottom: 40px;
     color: #95A3A3; 
  }
 

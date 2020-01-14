@@ -9,7 +9,8 @@ export default class Porfolio extends Component {
     return (
       
       <section id="portfolio">
-        <h1>★ Check Out Some of My Works as a Software engineer ★</h1>
+        <h1 className="title">Projects</h1>
+        <h5 className="subtitle">★ Check Out Some of My Works as a Software engineer ★</h5>
         <div>
           <hr/>
           <GTour/>

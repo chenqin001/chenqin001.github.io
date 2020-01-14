@@ -35,11 +35,11 @@ export default class About extends Component {
 
             <div className="box">
                   <h2 className="center">Contacts</h2>
-                  <div className="center">
-                  <p><a href="https://www.linkedin.com/in/qin-chen-911011165/" target="_blank" className="fa"><i class="fab fa-linkedin"></i></a>Join my networks</p>
-                  <p><a href="https://github.com/chenqin001" target="_blank" className="fa"><i className="fa fa-github"></i></a>View my codes</p>
-                  <p><a href="https://www.facebook.com/qin.chen.79462815" target="_blank" className="fa"><i className="fa fa-facebook-square"></i></a> Find my on social media</p>
-                  <p><a href="mailto:qchen352@gatech.edu" target="_blank" className="fa"><i className="fa fa-envelope"></i></a> DM me </p>
+                  <div className="contacts">
+                    <p className="left"><a href="https://www.linkedin.com/in/qin-chen-911011165/" target="_blank" className="fa"><i class="fab fa-linkedin"></i></a> Join my networks</p>
+                    <p className="left"><a href="https://github.com/chenqin001" target="_blank" className="fa"><i className="fa fa-github"></i></a> View my codes</p>
+                    <p className="left"><a href="https://www.facebook.com/qin.chen.79462815" target="_blank" className="fa"><i class="fab fa-facebook-square"></i></a> Find me on social media</p>
+                    <p className="left"><a href="mailto:qchen352@gatech.edu" target="_blank" className="fa"><i class="far fa-envelope"></i></a> DM me </p>
                   </div>
             </div>   
          

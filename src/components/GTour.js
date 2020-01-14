@@ -8,10 +8,10 @@ export default class GTour extends Component {
         return (
         <div className="GTrader">
           <h2 className="ProjectName">GT sustainability self tour</h2>
-          {/* <a href="http://3.17.27.249:8080/YelpRec/#" target="_blank"><h5 className="link">>>follow this link to see this project</h5></a> */}
+          <a href="http://3.17.27.249:8080/YelpRec/#" target="_blank"><h5 className="link">>>follow this link to see this project</h5></a>
           <div className="container">
             <div className="GTourDescription">
-                <ul>
+                <ul className="left">
                     <li>Build a self-guided campus tour Web APP, for Georgia Tech Sustainability Office</li>
                     <li>Implement Responsive Web Design (RWD) using React.js</li>
                     <li>Integrate Leaflet map API to display the map of Georgia Tech campus</li>

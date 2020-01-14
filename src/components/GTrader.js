@@ -12,7 +12,7 @@ export default class GTrader extends Component {
           <div className="container">
             <div className="GTradeDescription">
 
-                <ul>
+                <ul className="left">
                     <li>Implemented a playable classic Palm Pilot game using Android Studio and the MVVM (Model-View-ViewModel) design pattern</li>
                     <li>Followed the process of agile software development</li>
                     <li>Embedded Google map API to create a map for the players to travel</li>

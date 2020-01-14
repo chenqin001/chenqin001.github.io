@@ -19,7 +19,7 @@ export default class Header extends Component {
          <div className="row banner">
             <div className="banner-text">
                <h1 className="responsive-headline">HI, I'M QIN</h1>
-               <p> -- a creater, not only a developr</p>
+               <p style={{color:'#fff', fontFamily:'Georgia-serif '}}> -- a creater, not only a developr</p>
 
             </div>
 

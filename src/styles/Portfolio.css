@@ -50,6 +50,9 @@ h2,h1,h5 {
     color: #3d5c7b;
  }
 
+ .left{
+      text-align: left; 
+ }
 
 
 
@@ -71,9 +74,16 @@ h2,h1,h5 {
 }
 
 .YelpDescription{
-    float: center;
+    align-content: center;
+    /* display: block; */
     font-family: Georgia, serif;
 }
+
+@media (max-width: 600px) {
+    iframe{
+        display: none;
+    }
+  }
 
 /* GTrader  */
 
@@ -87,7 +97,11 @@ h2,h1,h5 {
  .GTradeDescription{
     float: left;
     font-family: Georgia, serif;
+    margin-right: 10%;
+    margin-left: 2%;
+    margin-top: 10%;
  }
+
 
  /* Flex Slider */
 
@@ -181,9 +195,10 @@ h2,h1,h5 {
 /* GTour  */
 .GTour{
     width: 270px;
-	margin: 0 auto;
+    margin: 0 auto;
 	padding: 0;
-	margin-top: 40px;
+    margin-top: 10px;
+    margin-bottom: 30px;
 	display: block;
 	border: none;
 	border-radius: 25px;
@@ -193,4 +208,14 @@ h2,h1,h5 {
 .GTourDescription{
     float: right;
     font-family: Georgia, serif;
+    margin-right: 10%;
+    margin-left: 8%;
+    margin-top: 10%;
+    
  }
+
+ @media (max-width: 600px) {
+    .GTourDescription{
+        margin-top: 0px;
+     }
+  }

@@ -12,7 +12,7 @@ export default class About extends Component {
 
             <div className="box">
                <h2 className="center">Summary</h2>
-               <p><i class="fas fa-user-graduate"></i> A computer science junior @ Gatech</p>
+               <p><i class="fas fa-user-graduate"></i> Computer science junior @ Georgia Tech</p>
                <p><i class="fab fa-pinterest"></i> Future Pinterest SWE intern</p>
                <p><i class="fas fa-map-marker-alt"></i> Lives in Atlanta, GA </p>
                <p><i class="fas fa-laptop-code"></i> Works as a software engineer </p>
@@ -25,9 +25,9 @@ export default class About extends Component {
 
                   <h2 className="center">Skills</h2>
                  
-                  <p>Front end: HTML, CSS, JavaScript, TypeScript, OpenGL</p>
-                  <p>Back end: Python, Java, C++, Scala</p>
-                  <p>Frameworks: React, Spring, RESTFUL API </p>
+                  <p>10k+ lines: Java, Python, JavaScript(including React)</p>
+                  <p>5k+ lines: C++, TypeScript, Scala,Go, HTML, CSS</p>
+                  <p>Familiar:  SQL, OpenGL</p>
                  
                  
 

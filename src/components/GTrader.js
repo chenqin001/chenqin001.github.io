@@ -8,7 +8,8 @@ export default class GTrader extends Component {
     render(){
         return (
         <div className="GTrader">
-          <h2 className="ProjectName">Space Trader -- An Android Game</h2>
+          <h2 className="ProjectName">Gatech Space Trader -- An Android Game</h2>
+          <a href="https://github.com/200poundsofo2/GTrader" target="_blank"><p className="link">>>follow this link to see the source code</p></a>
           <div className="container">
             <div className="GTradeDescription">
 
@@ -23,13 +24,13 @@ export default class GTrader extends Component {
             
             <div className="flexslider">
             <ul className="slides">
-              <li>
+              <li className='fix'>
                 <img src={pic1} className="GTPic"/>
-              </li>
-              <li>
+              </li >
+              <li className='fix'>
                 <img src={pic2} className="GTPic"/>
               </li>
-              <li>
+              <li className='fix'>
                  <img src={pic3} className="GTPic"/>
               </li>
             </ul>

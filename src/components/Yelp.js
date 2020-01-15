@@ -11,10 +11,10 @@ export default class Porfolio extends Component {
             <div className="container">
               <iframe src="http://3.17.27.249:8080/YelpRec/#" id="iframe" ></iframe>
 
-              {/* <img src={pic} className="GTour"/> */}
+              <img src={pic} className="YelpPic"/>
              
               <div className="YelpDescription">
-                <ul>
+                <ul >
                   <li>Designed and coded an interactive web page using HTML, CSS, and JavaScript</li>
                   <li>Developed a web service using Java servlet to fetch restaurant data from Yelp API using users' locations</li>
                   <li>Utilized JSON to transmit restaurant data from Yelp, thus achieved client-server communication</li>

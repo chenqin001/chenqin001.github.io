@@ -5,7 +5,7 @@ export default class Footer extends Component {
     return (
       <footer>
       <div>
-        <h5 className="font">Copyright © 2020 Qin Chen ♠ All rights reserved :)</h5>
+        <h6 className="font">Copyright © 2020 Qin Chen ♠ All rights reserved :)</h6>
       </div>
     </footer>
     );

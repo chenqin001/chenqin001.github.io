@@ -13,13 +13,14 @@ export default class Header extends Component {
                <li className="current"><a className="smoothscroll" href="#home">HOME</a></li>
                <li><a className="smoothscroll" href="#about">About</a></li>
                <li><a className="smoothscroll" href="#portfolio">Works</a></li>
+               <li><a className="smoothscroll" href="#life">Life</a></li>
             </ul>
          </nav>
 
          <div className="row banner">
             <div className="banner-text">
-               <h1 className="responsive-headline">HI, I'M QIN</h1>
-               <p style={{color:'#fff', fontFamily:'Georgia-serif '}}> -- a creater, not only a developr</p>
+               <h1 className="responsive-headline" style={{color:'#fff', fontFamily:'Georgia-serif '}}>HI, I'M QIN</h1>
+               <h3 style={{color:'#fff', fontFamily:'Georgia-serif '}}>A creater, not only a developr</h3>
 
             </div>
 

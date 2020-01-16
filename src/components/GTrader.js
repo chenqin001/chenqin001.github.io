@@ -8,10 +8,10 @@ export default class GTrader extends Component {
     render(){
         return (
         <div className="GTrader">
-          <h2 className="ProjectName">Gatech Space Trader -- An Android Game</h2>
-          <a href="https://github.com/200poundsofo2/GTrader" target="_blank"><p className="link">>>follow this link to see the source code</p></a>
+          <h2 className="ProjectName"><i class="fas fa-rocket"></i> Gatech Space Trader -- An Android Game</h2>
+          <a href="https://github.com/200poundsofo2/GTrader" target="_blank"><span className="link">>>follow this link to see the source code</span></a>
           <div className="container">
-            <div className="GTradeDescription">
+            <div className="GTradeDescription description">
 
                 <ul className="left">
                     <li>Implemented a playable classic Palm Pilot game using Android Studio and the MVVM (Model-View-ViewModel) design pattern</li>

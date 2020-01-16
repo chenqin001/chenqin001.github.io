@@ -16,7 +16,7 @@ class Map extends React.Component {
     return (
       <LeafletMap
         center={[33.775620, -84.396286]}
-        zoom={2}
+        zoom={3}
         maxZoom={19}
         minZoom={0}
         attributionControl={true}
@@ -107,7 +107,7 @@ class Map extends React.Component {
 
         <Marker position={[21.3069, -157.8583]} opacity={0.8}>
           <Popup>   {/* Popup for any custom information. */}
-            <p className="centered">Honolulu 🇺🇸</p>
+            <p className="centered">Hawaii 🇺🇸</p>
           </Popup>
         </Marker>
 
@@ -143,6 +143,25 @@ class Map extends React.Component {
         <Marker position={[34.0522, -118.2437]} opacity={0.8}>
           <Popup>   {/* Popup for any custom information. */}
             <p className="centered">Los Angeles 🇺🇸</p>
+          </Popup>
+        </Marker>
+
+        <Marker position={[47.6062, -122.3321]} opacity={0.8}>
+          <Popup>   {/* Popup for any custom information. */}
+            <p className="centered">Seattle 🇺🇸</p>
+          </Popup>
+        </Marker>
+
+        <Marker position={[32.0809, -81.0912]} opacity={0.8}>
+          <Popup>   {/* Popup for any custom information. */}
+            <p className="centered">Savannah 🇺🇸</p>
+          </Popup>
+        </Marker>
+
+
+        <Marker position={[48.8566, 2.3522]} opacity={0.8}>
+          <Popup>   {/* Popup for any custom information. */}
+            <p className="centered">Paris 🇫🇷</p>
           </Popup>
         </Marker>
 

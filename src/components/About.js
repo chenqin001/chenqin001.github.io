@@ -6,7 +6,7 @@ export default class About extends Component {
       <section id="about" className="row">
 
             <h1 className="title">About</h1>
-            <h5 className="subtitle">★ Everything you want to know ★</h5>
+            <h5 className="subtitle">★ Me in 30 Seconds ★</h5>
             <hr/>
         
 
